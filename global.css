@@ -29,7 +29,11 @@ footer {
     height: 8vw;
 }
 
-.icon-link svg:hover {
+.icon-link:active svg {
+    transform: scale(0.9) !important;
+}
+
+.icon-link:hover svg {
     stroke: #76a4cf;
     transform-origin: center;
     transform: scale(1.1);
